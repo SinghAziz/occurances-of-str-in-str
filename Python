@@ -1,0 +1,7 @@
+from collections import Counter
+def count_variables(x):
+  '''(str)-->(str)
+  This function prints the occurance of every varaibles in a string
+  '''
+  x=Counter(x)
+  print(x)
